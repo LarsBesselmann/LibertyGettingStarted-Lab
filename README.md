@@ -15,7 +15,7 @@ Need support? Contact **Lars Besselmann, Kevin Postreich**
 
 WebSphere Liberty (**Liberty**) is a lightweight open framework for building fast and efficient cloud-native Java microservices. Build cloud-native apps and microservices while running only what you need. It is the most flexible server runtime available to Java developers in this solar system.
 
-Liberty is built on the open source Open Liberty codebase. Open Liberty is designed with both developers and application business owners in mind.
+Liberty is built on the open-source Open Liberty codebase. Open Liberty is designed with both developers and application business owners in mind.
 
 * It delivers the latest Java APIs and integrates with the most popular Developer and Build tools.
 * It has built-in innovation like zero-migration to reduce application runtime costs and delivery effort.
