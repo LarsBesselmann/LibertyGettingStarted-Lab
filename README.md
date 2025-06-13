@@ -52,7 +52,7 @@ These are the objectives in the lab:
             * to build the application war and deploy it to Liberty
         * Visual Studio Code 
             * as IDE to build the application code
-        * Liberty Tools plugin for Visual Studio Code
+        * Liberty Tools Plugin for Visual Studio Code
             * provides a Liberty dashboard with Dev Mode integration in the IDE
             * provides Jakarta EE and MicroProfile code assistance
             * provides Liberty configuration assistance
@@ -67,7 +67,7 @@ These are the objectives in the lab:
         * Extract Liberty package from command line and implement Liberty dynamic updates
         * Develop portable Liberty configuration snippets using includes, variables and much more.
     * Tools:
-        * Visual Studio Code with Liberty Tools plugin as editor with configuration assistance
+        * Visual Studio Code with Liberty Tools Plugin as editor with configuration assistance
 
 * As Liberty administrator:
     * Tasks: 
@@ -491,7 +491,7 @@ In a terminal window, you would use Liberty in dev mode with maven using the com
 
 
 
-In the lab environment, the Liberty tools plugin has been installed into Visual Studio Code. Therefore you will use the integrated Liberty dashboard which will execute under the cover the related maven commands. 
+In the lab environment, the Liberty Tools Plugin has been installed into Visual Studio Code. Therefore you will use the integrated Liberty dashboard which will execute under the cover the related maven commands. 
 
 1. In Visual Studio Code, expand the Liberty Dashboard.
 
@@ -505,7 +505,7 @@ In the lab environment, the Liberty tools plugin has been installed into Visual 
 
     <kbd>![image042](./images/media/image042.png)</kbd>
 
-4. The Liberty plugin as well as the Liberty server artifacts get downloaded, then the server is ready for testing.
+4. The Liberty Maven Plugin as well as the Liberty server artifacts get downloaded, then the server is ready for testing.
 
     <kbd>![image043](./images/media/image043.png)</kbd>
 
@@ -581,7 +581,7 @@ Final step as developer is to export the developed application as WAR file so th
 
 Export the developed application so that it can be deployed to Liberty by the operations team.
 
-The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behavior, you need to adjust the pom.xml file and configure the Liberty maven plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**.
+The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behavior, you need to adjust the pom.xml file and configure the Liberty Maven Plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**.
 
 1. Switch back to Visual Studio Code.
 
@@ -593,7 +593,7 @@ The generated maven pom by default does not generate a WAR file as it uses a “
 
     <kbd>![image056](./images/media/image056.png)</kbd>
 
-4. In Visual Studio Code, open the file **pom.xml** and add to the Liberty plugin configuration the lines:
+4. In Visual Studio Code, open the file **pom.xml** and add to the Liberty Maven Plugin configuration the lines:
     
         <configuration>
         <looseApplication>false</looseApplication>
@@ -821,7 +821,7 @@ Let’s do a short excurse about Liberty dynamic updates. You will use Visual St
 
 There are different ways to create a Liberty server configuration and there are often different roles involved to get the final configuration for production. The application specific configuration, for example, is typically created by the application developer while security related configuration is typically done by operations. Operations is typically also responsible to make the configuration portable across stages, configure logging and so on. 
 
-You could create Liberty configuration snippets by copying over the related snippets from the product documentation and adjust them in a normal text editor. In this part of the lab, you will see that the Liberty tools plugin in Visual Studio Code can help you to speed up the create of configuration snippets as it provides configuration assistance including documentation. Let’s get started.
+You could create Liberty configuration snippets by copying over the related snippets from the product documentation and adjust them in a normal text editor. In this part of the lab, you will see that the Liberty Tools Plugin in Visual Studio Code can help you to speed up the create of configuration snippets as it provides configuration assistance including documentation. Let’s get started.
 
 You will now modify the file **server.xml** which has been provided as part of the server package to make it more portable and re-usable.
 
