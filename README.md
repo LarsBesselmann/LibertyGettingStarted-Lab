@@ -75,7 +75,7 @@ These are the objectives in the lab:
         * Configures Liberty for the target application using Liberty configuration snippets
         * Applies security to harden the Liberty configuration
         * Configure logging using configDropins
-        * Review the configuration using LIberty REST APIs
+        * Review the configuration using Liberty REST APIs
         * Monitor Liberty using the Admin Center
     * Tools:
         * Liberty server command to create a Liberty instance and start, stop or dump it
@@ -134,7 +134,7 @@ The lab environment contains one (1) Linux VM, named Workstation.
 	 
 	 <br>
 	 
-2.  If prompted to Login to the "workstation" VM, use the credetials below: 
+2.  If prompted to Login to the "workstation" VM, use the credentials below: 
 
     The login credentials for the **workstation”** VM is:
  
@@ -142,7 +142,7 @@ The lab environment contains one (1) Linux VM, named Workstation.
 
      - Password: **IBMDem0s!**
 
-     > Note: That is a numneric zero in the password
+     > Note: That is a numeric zero in the password
 
 	 <br>
  
@@ -196,7 +196,7 @@ In the environment, the default background for terminal windows and Visual Studi
 
         <kbd>![Terminal-change-background1](./images/media/Terminal-change-background1.png)</kbd>
 
-        A Preferences window opens. Click on Colors, then uncheck the box for  Use colors from system theme . (If you want to get back to dark, check the box again).
+        A Preferences window opens. Click on Colors, then uncheck the box for  Use colors from system theme. (If you want to get back to dark, check the box again).
 
         <kbd>![Terminal-change-background2](./images/media/Terminal-change-background2.png)</kbd>
 
@@ -414,7 +414,7 @@ Now you will use Visual Studio Code to see what has been generated as part of th
 
 The **simpleweb** application will not require the full **Jakarta EE 10** standard but only the servlet specification.
 
-As best practice to optimize the footprint of the application runtime regarding memory and disk space and limit the number of potential vulnerabilities, you should define only the features that are required by the application. In this case, you are ging to replace the **jakartaee-10** feature with an appropriate servlet feature. 
+As best practice to optimize the footprint of the application runtime regarding memory and disk space and limit the number of potential vulnerabilities, you should define only the features that are required by the application. In this case, you are going to replace the **jakartaee-10** feature with an appropriate servlet feature. 
 
 1. In the Visual Studio Code editor for **server.xml**, scroll up to the feature section.
 
@@ -581,7 +581,7 @@ Final step as developer is to export the developed application as WAR file so th
 
 Export the developed application so that it can be deployed to Liberty by the operations team.
 
-The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behaviour, you need to adjust the pom.xml file and configure the Liberty maven plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**.
+The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behavior, you need to adjust the pom.xml file and configure the Liberty maven plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**.
 
 1. Switch back to Visual Studio Code.
 
@@ -968,7 +968,7 @@ Your configuration should look like this:
 
 ### 6.4.2.2 Use includes for better re-use and visibility
 
-If you configure a Liberty server with resources like datasources or JMS queues, user registry and more, your configureation file can get quite long and not easy to be read and maintained. Liberty allows to specify configuration resources to get included into the server configuration. This helps to keep control over the configuration, provides better reuse of the different configuration and allows to split the responsibility for the configuration between different teams. The developer for example could create the application specific configuration and operations the security configuration.
+If you configure a Liberty server with resources like datasources or JMS queues, user registry and more, your configuration file can get quite long and not easy to be read and maintained. Liberty allows to specify configuration resources to get included into the server configuration. This helps to keep control over the configuration, provides better reuse of the different configuration and allows to split the responsibility for the configuration between different teams. The developer for example could create the application specific configuration and operations the security configuration.
 
 You will now use **includes** to structure the server configuration.
 
@@ -1175,7 +1175,7 @@ Comments:
 
 ### 6.5 Liberty Administration
 
-Now let’s switch to Liberty Admistrator role and explore how to install and configure Liberty from an administrator point of view. 
+Now let’s switch to Liberty Administrator role and explore how to install and configure Liberty from an administrator point of view. 
 
 A traditional administrator typically downloads the application server binaries from the IBM pages and uses a regular editor instead of an IDE like Visual Studio to configure Liberty. To download the latest version of WebSphere Liberty, the administrator can use the IBM support page https://www.ibm.com/support/pages/recommended-updates-websphere-application-server
 
@@ -1586,7 +1586,7 @@ In this case, you want to add/change the log level of the application server.
 
     By default, the Liberty Server trace specification is set to **"\*=info=enabled"**. 
 
-    To update the trace specification, you will again use the configDropings concept.
+    To update the trace specification, you will again use the configDropins concept.
 
 6. Switch to the second terminal window. Update the file **configDropins/overrides/loglevel-config.xml** to include a trace specification via the following command:
 
@@ -1640,7 +1640,7 @@ In this case, you want to add/change the log level of the application server.
 
     If a configuration property is specified in both the bootstrap.properties file and the server.xml file, the value in bootstrap.properties is used until the server.xml file is processed. Then, the value in the server.xml file is used. Avoid specifying different values for the same configuration property in both the bootstrap.properties and the server.xml file.
 
-    You will now change the log format to json. As the bootstrap.properties file does not exist, you will simpoly create it.
+    You will now change the log format to json. As the bootstrap.properties file does not exist, you will simply create it.
 
 
 14. Create a bootstrap,properties file that defines the property **com.ibm.ws.logging.console.format** by executing the following command: 
@@ -1831,7 +1831,7 @@ The Liberty **AdminCenter** can be used to monitor the status of the Liberty ser
 
     <kbd>![image176](./images/media/image176.png)</kbd>
 
-14. Click on **Explore**, then select the tab **Applications**. Try to click on the twisty next to the **simpleweb** application and you can see that you are not auithorized to start or stop an application.
+14. Click on **Explore**, then select the tab **Applications**. Try to click on the twisty next to the **simpleweb** application and you can see that you are not authorized to start or stop an application.
 
     <kbd>![image177](./images/media/image177.png)</kbd>
 
@@ -1912,7 +1912,7 @@ Let’s recap what you did in this part of the lab:
 
 ## Summary
 
-In this lab, you learned how to develop a simple application as a developer, how to deployment and configure the application as an configuration opertor, and how to install and configure Liberty as an administrator.
+In this lab, you learned how to develop a simple application as a developer, how to deployment and configure the application as a configuration operator, and how to install and configure Liberty as an administrator.
 
 **Congratulations!**
 
@@ -1920,4 +1920,4 @@ In this lab, you learned how to develop a simple application as a developer, how
 
 # Troubleshooting
 ## Liberty Tools Code Assistant
-If the code assistance via Liberty Tools does not work, make sure that the JAVA_HOME environment variable has been set to a valide value.
+If the code assistance via Liberty Tools does not work, make sure that the JAVA_HOME environment variable has been set to a valid value.
