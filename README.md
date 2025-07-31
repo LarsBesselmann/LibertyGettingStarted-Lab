@@ -1,6 +1,5 @@
 # Liberty Getting Started
 
-## data collection, assessments, & deployment accelerators
 
 ![banner](./images/media/OpenLiberty.png) 
 
