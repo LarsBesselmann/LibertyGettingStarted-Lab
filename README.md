@@ -520,7 +520,7 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
 
     <kbd>![image043](./images/media/image043.png)</kbd>
 
-5. Switch to the browser window and enter the URL **localhost:9080**. You should see something like this:
+5. Switch to the browser window and enter the URL **http://localhost:9080**. You should see something like this:
 
     <kbd>![image044](./images/media/image044.png)</kbd>
     <table>
@@ -575,7 +575,7 @@ Now you will edit the **simpleweb** application which only consists of a servlet
 
     <kbd>![image051](./images/media/image051.png)</kbd>
 
-9. Switch to the browser and open the URL **localhost:9080/simpleweb/helloWorld**. You should see the output of the created servlet.
+9. Switch to the browser and open the URL **http://localhost:9080/simpleweb/helloWorld**. You should see the output of the created servlet.
 
     <kbd>![image052](./images/media/image052.png)</kbd>
 
