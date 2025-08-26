@@ -636,6 +636,7 @@ The generated maven pom by default does not generate a WAR file as it uses a “
 
 8. Close Visual Studio Code.
 
+Comment: To build the war file, you could also use the **mvn package** command.
 
 ### 6.3.7 Create a server package
 
