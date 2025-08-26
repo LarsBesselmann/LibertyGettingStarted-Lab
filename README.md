@@ -94,6 +94,9 @@ lab:
 
 
 ## 4. Accessing the environment
+<details>
+<summary>Details how to access the environment</summary>
+
 
 If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.
 
@@ -148,8 +151,13 @@ The lab environment contains one (1) Linux VM, named Workstation.
      <kbd>![student vm screen](./images/media/techzone-user-pw.png)</kbd>
 	 
 	 <br>
+     </details>
+
 
 ## 5. Tips for working in the lab environment     
+<details>
+<summary>Details how to use the clipboard etc.</summary>
+
 
 1. You can resize the viewable area using the **noVNC Settings** options to resize the virtual desktop to fit your screen.
 
@@ -235,6 +243,7 @@ In the environment, the default background for terminal windows and Visual Studi
 
         Close Visual Studio Code.
 
+     </details>
 <br>    
 
 
