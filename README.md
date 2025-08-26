@@ -534,7 +534,11 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
     </tbody>
     </table>
 
+<br>
+
 **Now, let’s create a simple web application.**
+
+<br>
 
 ### 6.3.5 Edit the simpleweb application
 
