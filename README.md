@@ -523,18 +523,18 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
 5. Switch to the browser window and enter the URL **localhost:9080**. You should see something like this:
 
     <kbd>![image044](./images/media/image044.png)</kbd>
-<table>
-<tbody>
-<tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
-<td>
-<p>If you get a pop-up with <strong>Authentication required</strong>, enter the password <strong>IBMDem0s!</strong> and click on <strong>Unlock</strong>.
-</p></td>
-</tr>
-</tbody>
-</table>
+    <table>
+    <tbody>
+    <tr class="odd">
+    <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
+    <td>
+    <p>If you get a pop-up with <strong>Authentication required</strong>, enter the password <strong>IBMDem0s!</strong> and click on <strong>Unlock</strong>.
+    </p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    Now, let’s create a simple web application.
+**Now, let’s create a simple web application.**
 
 ### 6.3.5 Edit the simpleweb application
 
