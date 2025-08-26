@@ -546,7 +546,7 @@ Now you will edit the **simpleweb** application which only consists of a servlet
 
 1. Switch to Visual Studio Code.
 
-2. In Visual Studio Code, expand the path to **src/main/java/com/demo/rest**, then **right-click** on **demo** and select **New File**.
+2. In Visual Studio Code, expand the path to **src/main/java/com/demo/rest** and click on **demo**. Then **right-click** on **demo** and select **New File**.
 
     <kbd>![image045](./images/media/image045.png)</kbd>
 
