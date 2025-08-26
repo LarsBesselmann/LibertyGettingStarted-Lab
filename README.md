@@ -816,7 +816,7 @@ Let’s do a short excurse about Liberty dynamic updates. You will use Visual St
 
     <kbd>![image078](./images/media/image078.png)</kbd>
 
-9. Switch to the browser and access the application via URL **localhost:9081/mysimpleweb/helloWorld**.
+9. Switch to the browser and access the application via URL **http://localhost:9081/mysimpleweb/helloWorld**.
 
     <kbd>![image079](./images/media/image079.png)</kbd>
 
