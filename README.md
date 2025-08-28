@@ -698,7 +698,7 @@ You will need the server package for the Liberty Operations part of the lab. If 
         mkdir ~/Student/ops
         mkdir ~/Student/assets
 
-2. Clone the repository 
+2. Create a backup directory and clone the repository 
  
         mkdir ~/Student/backup
         git clone https://github.com/LarsBesselmann/LibertyGettingStarted-Lab /home/techzone/Student/backup
