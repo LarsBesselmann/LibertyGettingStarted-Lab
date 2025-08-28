@@ -774,7 +774,7 @@ You will now explore the Liberty server package to get a better understanding ho
     
     To start the server in the foreground (so the console messages are displayed in the command window) you would use the command 
     
-        test/wlp/bin/server run defaultServer. 
+        test/wlp/bin/server run defaultServer 
         
     You will use it later in the lab.
 
@@ -1199,9 +1199,9 @@ You will re-use the generated configuration snippets and other assets in the nex
 3. If not already done, exit **Visual Studio Code** and stop any running Liberty instance.
 
 
-### 6.4.2.5 Recap
+### 6.4.3 Recap
 
-In this section of the lab, you got an impression how to create and use configuration snippets:
+In this section of the lab, you got an impression how Liberty supports dynamic updates, how to create a portable configuration and how the Liberty tools can support you. In more detail, you 
 
 * used the **Liberty Tools configuration assistant** to create configuration snippets and to configure Liberty. 
 * used the **Liberty featureUtility tool** to install missing features.
@@ -1213,6 +1213,38 @@ Comments:
 
 * Instead of using the Liberty Tools configuration assistant in Visual Studio Code, you could also use the product documentation and copy & paste to create Liberty configuration snippets. 
 * You could also use the IBM migration tools to transform an existing configuration for WebSphere Traditional and other runtimes into a Liberty configuration.
+
+### 6.4.4 Troubleshooting
+
+You will need the some of the created artifacts like configuration snippets for the Liberty Administration part of the lab. If you did not complete this part of the lab successfully, perform the following steps to be able to continue with the next part.
+
+1. If not already done, create the required working directories
+
+        mkdir ~/Student
+        mkdir ~/Student/dev
+        mkdir ~/Student/ops
+        mkdir ~/Student/assets
+
+2. If not already done, create a backup directory and clone the repository 
+ 
+        mkdir ~/Student/backup
+        git clone https://github.com/LarsBesselmann/LibertyGettingStarted-Lab /home/techzone/Student/backup
+
+3. If not already done, copy the server package to the assets directory
+
+        cp ~/Student/backup/assets/simpleweb-serverpackage.jar ~/Student/assets
+
+4. Copy the created artifacts to the assets directory
+
+       cp ~/Student/backup/assets/server.* ~/Student/assets
+
+        cp ~/Student/backup/assets/application-config.xml ~/Student/assets
+
+        cp ~/Student/backup/assets/simpleweb.war ~/Student/assets
+
+
+<br>
+
 
 ### 6.5 Liberty Administration
 
