@@ -705,7 +705,7 @@ You will need the server package for the Liberty Operations part of the lab. If 
 
 3. Copy the server package to the assets directory
 
-        cp ~/Student/backup/LibertyGettingStarted-Lab/assets/simpleweb-serverpackage.jar ~/Student/assets
+        cp ~/Student/backup/assets/simpleweb-serverpackage.jar ~/Student/assets
 
 
 
