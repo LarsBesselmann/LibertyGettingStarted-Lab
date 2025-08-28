@@ -707,7 +707,7 @@ You will need the server package for the Liberty Operations part of the lab. If 
 
         cp ~/Student/backup/assets/simpleweb-serverpackage.jar ~/Student/assets
 
-
+<br>
 
 
 ### 6.4 Liberty Operations 
