@@ -686,11 +686,36 @@ You acted as developer and used Visual Studio Code and the Liberty Tools for the
 
 Useful links: https://github.com/OpenLiberty/liberty-tools-vscode/blob/HEAD/docs/user-guide.md 
 
+
+### 6.3.9 Troubleshooting
+
+You will need the server package for the Liberty Operations part of the lab. If you did not build the server package successfully, perform the following steps to be able to continue with the next part.
+
+1. If not already done, create the required working directories
+
+        mkdir ~/Student
+        mkdir ~/Student/dev
+        mkdir ~/Student/ops
+        mkdir ~/Student/assets
+
+2. Clone the repository 
+ 
+        mkdir ~/Student/backup
+        git clone https://github.com/LarsBesselmann/LibertyGettingStarted-Lab /home/techzone/Student/backup
+
+3. Copy the server package to the assets directory
+
+        cp ~/Student/backup/LibertyGettingStarted-Lab/assets/simpleweb-serverpackage.jar ~/Student/assets
+
+
+
+
 ### 6.4 Liberty Operations 
 
 Now you will work with Liberty from an operational point of view. Development has handed over a Liberty server package to you. The server package contains all necessary configuration to run the application called **simpleweb**. The provided server package is typically not production-ready, as it is likely not portable between stages and does not fulfill the requirements regarding security and so on. 
 
 In this part of the lab, you will explore how to create configuration snippets and how to administer Liberty from the command line. But first you will explore the server package and get an understanding about dynamic updates.
+
 
 ### 6.4.1 Explore the server package
 
