@@ -755,7 +755,7 @@ You will now explore the Liberty server package to get a better understanding ho
 
     <kbd>![image064](./images/media/image064.png)</kbd>
 
-    As you can see, the server package provided by the developer only contains the **servlet-6.0** features which is the only feature required by the application. 
+    As you can see, the server package provided by the developer only contains the **servlet-6.0** feature which is the only feature required by the application. 
 
 
 4. Run the following command to get the **list of defined Liberty application servers**:
