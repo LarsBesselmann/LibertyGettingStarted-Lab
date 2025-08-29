@@ -1470,7 +1470,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
     <tr class="odd">
     <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
     <td>
-    <p>The encoded keystore password is not unique, so you might have a different password as in the screenshot above. <br> 
+    <p>The encoded keystore password is not unique, so you might have a different password than in the screenshot above. <br> 
         But as long as you use the same password to be encoded, all of the different resulting strings are valid. 
     </p></td>
     </tr>
