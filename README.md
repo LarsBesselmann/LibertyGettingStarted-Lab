@@ -1992,5 +1992,10 @@ In this lab, you learned how to develop a simple application as a developer, how
 **You have successfully completed the lab "Liberty Getting Started"**
 
 # Troubleshooting
+<details>
+<summary>Details around troubleshooting</summary>
+
 ## Liberty Tools Code Assistant
 If the code assistance via Liberty Tools does not work, make sure that the JAVA_HOME environment variable has been set to a valid value.
+
+</details>
