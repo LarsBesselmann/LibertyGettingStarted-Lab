@@ -1814,13 +1814,13 @@ The Liberty **AdminCenter** can be used to monitor the status of the Liberty ser
 
 1. Create a password as **Liberty4Admins** for the admin user.
 
-            wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
+        wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
 
     <kbd>![image164](./images/media/image164.png)</kbd>
 
 2. Create a password as **Liberty4Readers** for the second user.
 
-            wlp/bin/securityUtility encode --encoding=xor Liberty4Readers
+        wlp/bin/securityUtility encode --encoding=xor Liberty4Readers
 
     <kbd>![image165](./images/media/image165.png)</kbd>
 
