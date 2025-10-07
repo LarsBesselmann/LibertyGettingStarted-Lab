@@ -7,7 +7,7 @@
 
 **Duration:** 90 minutes
 
-Need support? Contact **Lars Besselmann, Kevin Postreich**
+Need support? Contact **Lars Besselmann, Lars.Besselmann@de.ibm.com**
 
 
 ## Liberty Getting Started tasks
