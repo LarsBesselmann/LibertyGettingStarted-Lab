@@ -3,7 +3,7 @@
 
 ![banner](./images/media/OpenLiberty.png) 
 
-**Last updated:** March 2024
+**Last updated:** October 2026
 
 **Duration:** 90 minutes
 
