@@ -255,9 +255,9 @@ In the environment, the default background for terminal windows and Visual Studi
 <details>
 <summary>Details how to build your own environment</summary>
 
-The lab was build for a specific Linux environment but you could also use your own environment which looks more or less different. 
+The lab was build for a specific environment but you could also use your own environment which looks more or less different. 
 
-- The lab is described for Linux but you could also use another operating system. 
+- The lab is described for Red Hat Enterprise Linux but you could also use another operating system. 
 
 - You could also use Eclipse or IntelliJ instead of Visual Studio Code but the UI looks a bit different.
 
