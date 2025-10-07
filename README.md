@@ -90,7 +90,6 @@ lab:
 
 * Familiarity with basic Linux commands
 * Have internet access
-* Have a lab environment ready
 
 
 ## 4. Getting familar with  the lab environment 
