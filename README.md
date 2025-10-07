@@ -287,14 +287,7 @@ To use the lab, you need to install the following software
     <kbd>![mvn-v](./images/media/mvn-v.png)</kbd>
 
 
-3. Check the Docker version via the following command:
-
-        docker -v
-
-    <kbd>![docker-v](./images/media/docker-v.png)</kbd>
-
-
-4. Check the Git version via the following command:
+3. Check the Git version via the following command:
 
         git -v
 
