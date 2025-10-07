@@ -93,7 +93,11 @@ lab:
 * Have a lab environment ready
 
 
-## 4. Accessing the environment
+## 4. Getting familar with  the lab environment 
+<details>
+<summary>Details how to request or use the environment as part of an IBM workshop</summary>
+
+### 4.1 Accessing the environment
 <details>
 <summary>Details how to access the environment</summary>
 
@@ -154,7 +158,7 @@ The lab environment contains one (1) Linux VM, named Workstation.
      </details>
 
 
-## 5. Tips for working in the lab environment     
+### 4.2 Tips for working in the lab environment     
 <details>
 <summary>Details how to use the clipboard etc.</summary>
 
@@ -246,6 +250,23 @@ In the environment, the default background for terminal windows and Visual Studi
      </details>
 <br>    
 
+</details>
+
+## 5. How to set up your own envuironment
+<details>
+<summary>Details how to build your own environment</summary>
+The lab is described for Linux but you could also use another operating system. Also you could use Eclipse or IntelliJ instead of Visual Studio Code.
+
+To use the lab, you need to install the following software
+- Java 17 (for a higher version you would need to adjust parts of the lab)
+- Maven
+- Git
+- An IDE like Visual Studio Code, Eclipse or IntelliJ
+- The Liberty Tools Plugin from the related marked place (you can find the related links at the bottom of the document https://openliberty.io/docs/latest/develop-liberty-tools.html)
+
+
+
+</details>
 
 ## 6. Execute Lab Tasks
 
