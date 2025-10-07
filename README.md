@@ -251,7 +251,7 @@ In the environment, the default background for terminal windows and Visual Studi
 
 </details>
 
-## 5. How to set up your own envuironment
+## 5. How to set up your own environment
 <details>
 <summary>Details how to build your own environment</summary>
 
