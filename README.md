@@ -254,7 +254,12 @@ In the environment, the default background for terminal windows and Visual Studi
 ## 5. How to set up your own envuironment
 <details>
 <summary>Details how to build your own environment</summary>
-The lab is described for Linux but you could also use another operating system. Also you could use Eclipse or IntelliJ instead of Visual Studio Code.
+
+The lab is described for Linux but you could also use another operating system. You could use Eclipse or IntelliJ instead of Visual Studio Code.
+
+The document assumes the user **techzone** with the password **IBMDem0s!** and the user home directory **/home/techzone/**.
+
+You might have to adjust the one or other command to your environment.
 
 To use the lab, you need to install the following software
 - Java 17 (for a higher version you would need to adjust parts of the lab)
