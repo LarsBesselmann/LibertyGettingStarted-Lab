@@ -255,7 +255,9 @@ In the environment, the default background for terminal windows and Visual Studi
 <details>
 <summary>Details how to build your own environment</summary>
 
-The lab is described for Linux but you could also use another operating system. You could use Eclipse or IntelliJ instead of Visual Studio Code.
+The lab is described for Linux but you could also use another operating system. 
+
+You could also use Eclipse or IntelliJ instead of Visual Studio Code but the UI looks a bit different.
 
 The document assumes the user **techzone** with the password **IBMDem0s!** and the user home directory **/home/techzone/**.
 
