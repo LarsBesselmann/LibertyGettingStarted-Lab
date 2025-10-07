@@ -263,7 +263,7 @@ The lab was build for a specific Linux environment but you could also use your o
 
 - The document assumes the user **techzone** with the password **IBMDem0s!** and the user home directory **/home/techzone/**.
 
-- You might have to adjust the one or other command to your environment.
+- Overall, you might have to adjust the one or other command to your environment.
 
 To use the lab, you need to install the following software
 - Java 17 (for a higher version you would need to adjust parts of the lab)
