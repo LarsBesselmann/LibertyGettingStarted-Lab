@@ -92,166 +92,12 @@ lab:
 * Have internet access
 
 
-## 4. Getting familar with  the lab environment 
-<details>
-<summary>Details how to request or use the environment as part of an IBM workshop</summary>
+## 4. About the lab environment
 
-### 4.1 Accessing the environment
-<details>
-<summary>Details how to access the environment</summary>
+### 4.1 Use an environment provided by IBM
+If you use a lab environment hosted by IBM, the software is already installed.
 
-
-If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.
-
-Otherwise, you will need to reserve an environment for the lab. You can obtain one here. Follow the on-screen instructions for the “**Reserve now**” option.
-
-<https://techzone.ibm.com/collection/liberty-getting-started-labs/environments>
-
-The lab environment contains one (1) Linux VM, named Workstation.
-
-<kbd>![](./images/media/workstation.png)</kbd>
-
-
-<br/>
-
-1.  Access the lab environment from your web browser. 
-     
-    A `Published Service` is configured to provide access to the **`Workstation`** VM through the noVNC interface for the lab environment.
-    
-    a. When the demo environment is provisioned, click on the **`environment tile`** to open its details view. 
-
-    b. Click on the **`Published Service`** link which will display a **Directory listing**  
-    
-    c. Click on the **`vnc.html`** link to open the lab environment through the **noVNC** interface. 
-    
-    <kbd>![](./images/media/vnc-link.png)</kbd>
-    
-    d. Click the **`Connect`** button 
-    
-      <kbd>![](./images/media/vnc-connect.png)</kbd>
-
-
-    e. Enter the password as:  **IBMDem0s!**. Then click the **`Send Credentials`** button to access the lab environment. 
-
-
-      <kbd>![](./images/media/vnc-password.png)</kbd>
-
-	 
-	 <br>
-	 
-2.  If prompted to Login to the "workstation" VM, use the credentials below: 
-
-    The login credentials for the **workstation”** VM is:
- 
-     - User ID: **techzone**
-
-     - Password: **IBMDem0s!**
-
-     > Note: That is a numeric zero in the password
-
-	 <br>
- 
-     <kbd>![student vm screen](./images/media/techzone-user-pw.png)</kbd>
-	 
-	 <br>
-     </details>
-
-
-### 4.2 Tips for working in the lab environment     
-<details>
-<summary>Details how to use the clipboard etc.</summary>
-
-
-1. You can resize the viewable area using the **noVNC Settings** options to resize the virtual desktop to fit your screen.
-
-    a. From the environment VM, click on the **twisty** on the noNC control pane to open the menu.  
-
-    <kbd>![fit to window](./images/media/vnc-twisty.png)</kbd>
-
-    b. To increase the visible area, click on `Settings > Scaling Mode` and set the value to `Remote Resizing`
-      
-     <kbd>![fit to window](./images/media/vnc-remote-resize.png)</kbd>
-
-
-2.  You can copy / paste text from the lab guide into the lab environment using the clipboard in the noVNC viewer. 
-   
-    a. Copy the text from the lab guide that you want to paste into the lab environment
-    
-    b. Click the **`Clipboard`** icon and **`paste`** the text into the noVNC clipboard
-
-    <kbd>![fit to window](./images/media/vnc-paste.png)</kbd>
-    
-    c. Paste the text into the VM, such as to a terminal window, browser window, etc. 
-
-    d. Click on the **`clipboard`** icon again to close the clipboard
-
-   
-3. An alternative to using the noVNC Copy / Paste option, you may consider opening the lab guide in a web browser inside of the VM. Using this method, you can easily copy / paste text from the lab guide without having to use the noVNC clipboard. 
-
-4. To switch between different windows or get access the tool bar, click on the **`Activities`** icon within the VM.
-
-    <kbd>![fit to window](./images/media/Activities.png)</kbd>
-
-    Then select from the tool bar the application that you want to open. In the lab, you will use Firefox and the terminal.
-
-    <kbd>![Toolbar](./images/media/Toolbar.png)</kbd>
-    
-
-
-5. How to change the background color 
-In the environment, the default background for terminal windows and Visual Studio Code is dark. For the lab documentation, we changed the color to light. Feel free to keep the background in light but if you want to change it to dark, here the explanation how it was changed.
-
-    1. How to change the terminal background to white
-        Right-click into the terminal background, then select Preferences.
-
-        <kbd>![Terminal-change-background1](./images/media/Terminal-change-background1.png)</kbd>
-
-        A Preferences window opens. Click on Colors, then uncheck the box for  Use colors from system theme. (If you want to get back to dark, check the box again).
-
-        <kbd>![Terminal-change-background2](./images/media/Terminal-change-background2.png)</kbd>
-
-        The terminal background should switch to white.
-
-        <kbd>![Terminal-change-background3](./images/media/Terminal-change-background3.png)</kbd>
-
-        Close the Preferences window.
-
-
-
-    2. How to switch the background of Visual Studio Code from dark to light
-
-        In a terminal Window, run the following command to start Visual Studio Code
-
-            mkdir ~/temp
-            code ~/temp
-
-        <kbd>![start-VSCode](./images/media/start-VSCode.png)</kbd>
-
-        Visual Studio Code opens with a dark background. 
-        Click on  Yes, I trust the authors 
-
-        <kbd>![VSCode-trust](./images/media/VSCode-trust.png)</kbd>
-
-        Then select Preferences > Theme > Color Theme
-
-        <kbd>![VSCode-Theme](./images/media/VSCode-Theme.png)</kbd>
-
-        Select Light
-
-        <kbd>![VSCode-Theme-light](./images/media/VSCode-Theme-light.png)</kbd>
-
-        The tool will change to a light background, see below.
-
-        <kbd>![VSCode-light](./images/media/VSCode-light.png)</kbd>
-
-        Close Visual Studio Code.
-
-     </details>
-<br>    
-
-</details>
-
-## 5. How to set up your own environment
+### 4.2 How to set up your own environment
 <details>
 <summary>Details how to build your own environment</summary>
 
@@ -276,9 +122,9 @@ To use the lab, you need to install the following software
 
 </details>
 
-## 6. Execute Lab Tasks
+## 5. Execute Lab Tasks
 
-### 6.1 Verify the installed software 
+### 5.1 Verify the installed software 
 
 1. Open a terminal by clicking on Activities and selecting terminal.
 
@@ -302,7 +148,7 @@ To use the lab, you need to install the following software
 
     <kbd>![git-v](./images/media/git-v.png)</kbd>
 
-### 6.2 Create the required working directories
+### 5.2 Create the required working directories
 
 1. Create the Student directories and some sub-directories used in the lab with commands:
 
@@ -312,11 +158,11 @@ To use the lab, you need to install the following software
         mkdir ~/Student/assets
 
 
-### 6.3 Develop a Liberty web application
+### 5.3 Develop a Liberty web application
 
 The objective of this section is to develop a simple web application for Liberty. You will use a **Liberty starter application** to now start from scratch and use Visual Studio Code and Liberty Tools to build the application.
 
-### 6.3.1 Create a starter app project.
+### 5.3.1 Create a starter app project.
 
 In this scenario, you want to create a Jakarta EE 10 Web application with the name **simpleweb** and will use maven to build it. The fastest way to get started is to use an Open Liberty starter application which generates a project with the maven configuration as well as a basic Liberty setup.
 
@@ -376,7 +222,7 @@ The **Open Liberty starter** gives you a simple, quick way to get the necessary 
 
     <kbd>![image021](./images/media/image021.png)</kbd>
 
-### 6.3.2. Inspect the starter project using Open Visual Studio Code
+### 5.3.2. Inspect the starter project using Open Visual Studio Code
 
 Now you will use Visual Studio Code to see what has been generated as part of the starter project.
 
@@ -443,7 +289,7 @@ Now you will use Visual Studio Code to see what has been generated as part of th
     <kbd>![image030](./images/media/image030.png)</kbd>
 
 
-### 6.3.3 Adjust the Liberty configuration
+### 5.3.3 Adjust the Liberty configuration
 
 The **simpleweb** application will not require the full **Jakarta EE 10** standard but only the servlet specification.
 
@@ -500,7 +346,7 @@ As best practice to optimize the footprint of the application runtime regarding 
 11. Close the **server.xml** file.
 
 
-### 6.3.4 Using Liberty Dev Mode
+### 5.3.4 Using Liberty Dev Mode
 
 Liberty development mode, or dev mode, allows you to develop applications with any text editor or IDE by providing hot reload and deployment, on demand testing, and debugger support. Liberty Dev Mode is enabled through Maven and Gradle projects.
 
@@ -562,7 +408,7 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
 
 <br>
 
-### 6.3.5 Edit the simpleweb application
+### 5.3.5 Edit the simpleweb application
 
 Now you will edit the **simpleweb** application which only consists of a servlet. Thanks to Liberty Tools code assistant, you don't have to write the code on your own. 
 
@@ -614,7 +460,7 @@ Now you will edit the **simpleweb** application which only consists of a servlet
 Final step as developer is to export the developed application as WAR file so that it can be used in the next part of the lab.
 
 
-### 6.3.6 Export the developed application as WAR file
+### 5.3.6 Export the developed application as WAR file
 
 Export the developed application so that it can be deployed to Liberty by the operations team.
 
@@ -660,7 +506,7 @@ The generated maven pom by default does not generate a WAR file as it uses a “
 
 Comment: To build the war file, you could also use the **mvn package** command.
 
-### 6.3.7 Create a server package
+### 5.3.7 Create a server package
 
 For the next lab, you will need the WAR file as well as the **server.xml** which can be found in the created Liberty instance at: 
 **~/Student/dev/simpleweb/target/liberty/wlp/usr/servers/defaultServer**.
@@ -691,7 +537,7 @@ For more details and options, see https://www.ibm.com/docs/en/was-liberty/base?t
         cp ~/Student/dev/simpleweb/target/liberty/wlp/usr/servers/defaultServer/simpleweb-serverpackage.jar ~/Student/assets
 
 
-### 6.3.8 Recap
+### 5.3.8 Recap
 
 Congratulations, you have finished the application development part.
 
@@ -709,7 +555,7 @@ You acted as developer and used Visual Studio Code and the Liberty Tools for the
 Useful links: https://github.com/OpenLiberty/liberty-tools-vscode/blob/HEAD/docs/user-guide.md 
 
 
-### 6.3.9 Troubleshooting
+### 5.3.9 Troubleshooting
 
 You will need the server package for the Liberty Operations part of the lab. If you did not build the server package successfully, perform the following steps to be able to continue with the next part.
 
@@ -732,14 +578,14 @@ You will need the server package for the Liberty Operations part of the lab. If 
 <br>
 
 
-### 6.4 Liberty Operations 
+### 5.4 Liberty Operations 
 
 Now you will work with Liberty from an operational point of view. Development has handed over a Liberty server package to you. The server package contains all necessary configuration to run the application called **simpleweb**. The provided server package is typically not production-ready, as it is likely not portable between stages and does not fulfill the requirements regarding security and so on. 
 
 In this part of the lab, you will explore how to create configuration snippets and how to administer Liberty from the command line. But first you will explore the server package and get an understanding about dynamic updates.
 
 
-### 6.4.1 Explore the server package
+### 5.4.1 Explore the server package
 
 You will now explore the Liberty server package to get a better understanding how to use it, in addition you will use it to learn more about **Liberty administration from the command line** and **Liberty dynamic updates**.
 
@@ -754,7 +600,7 @@ You will now explore the Liberty server package to get a better understanding ho
 </tbody>
 </table>
 
-### 6.4.1.1 Extract Liberty package from command line
+### 5.4.1.1 Extract Liberty package from command line
 
 1. Extract the Liberty server package and try to run it. When asked, enter **test** as target directory.
 
@@ -814,7 +660,7 @@ You will now explore the Liberty server package to get a better understanding ho
     <kbd>![image068](./images/media/image068.png)</kbd>
 
 
-### 6.4.1.2 Liberty dynamic updates
+### 5.4.1.2 Liberty dynamic updates
 
 Let’s do a short excurse about Liberty dynamic updates. You will use Visual Studio Code to perform some minor configuration changes. For this part of the lab, you could instead also use a simple text editor like vi or gedit instead. 
 
@@ -880,7 +726,7 @@ Let’s do a short excurse about Liberty dynamic updates. You will use Visual St
     <kbd>![image080](./images/media/image080.png)</kbd>
 
 
-### 6.4.2 Create Liberty configuration snippets
+### 5.4.2 Create Liberty configuration snippets
 
 There are different ways to create a Liberty server configuration and there are often different roles involved to get the final configuration for production. The application specific configuration, for example, is typically created by the application developer while security related configuration is typically done by operations. Operations is typically also responsible to make the configuration portable across stages, configure logging and so on. 
 
@@ -913,7 +759,7 @@ You will now modify the file **server.xml** which has been provided as part of t
 
     As you can see, the attribute host defaults to **localhost**.
 
-### 6.4.2.1 Use variables for portability
+### 5.4.2.1 Use variables for portability
 
 To make the configuration portable, you will replace the fixed values for ports and host with Liberty variables. Liberty variables can be defined with a default value and overridden from inside or outside Liberty. To show the concept, you will adjust the httpEndpoint settings.
 
@@ -1029,7 +875,7 @@ Your configuration should look like this:
         unset httpEndpoint_port
     This will restore the httpEnpoint_port value in the Operating System environment variable to **9080**.
 
-### 6.4.2.2 Use includes for better re-use and visibility
+### 5.4.2.2 Use includes for better re-use and visibility
 
 If you configure a Liberty server with resources like datasources or JMS queues, user registry and more, your configuration file can get quite long and not easy to be read and maintained. Liberty allows to specify configuration resources to get included into the server configuration. This helps to keep control over the configuration, provides better reuse of the different configuration and allows to split the responsibility for the configuration between different teams. The developer for example could create the application specific configuration and operations the security configuration.
 
@@ -1096,7 +942,7 @@ You will now use **includes** to structure the server configuration.
 
     Keep the server running as we need it in the next section.
 
-### 6.4.2.3 Enable transport security
+### 5.4.2.3 Enable transport security
 
 Right now, you are not able to access Liberty via HTTPS. While the HTTPS port 9443 has been defined, SSL has not been enabled in Liberty. SSL can be enabled using the transport security feature. So the next step is to enable transport security and take a look at other related topics like keystores.
 
@@ -1198,7 +1044,7 @@ Right now, you are not able to access Liberty via HTTPS. While the HTTPS port 94
 
 13. Close Visual Studio Code.
 
-### 6.4.2.4 Backup the generated files
+### 5.4.2.4 Backup the generated files
 
 You will re-use the generated configuration snippets and other assets in the next section of the lab. Therefore it is a good approach to create a snippet repository. Configuration snippets are typically hosted in a git repository or so, here you will use the folder **~/Student/assets**. You will also use the asset directory to store the application WAR file.
 
@@ -1221,7 +1067,7 @@ You will re-use the generated configuration snippets and other assets in the nex
 3. If not already done, exit **Visual Studio Code** and stop any running Liberty instance.
 
 
-### 6.4.3 Recap
+### 5.4.3 Recap
 
 In this section of the lab, you got an impression how Liberty supports dynamic updates, how to create a portable configuration and how the Liberty tools can support you. In more detail, you 
 
@@ -1236,7 +1082,7 @@ Comments:
 * Instead of using the Liberty Tools configuration assistant in Visual Studio Code, you could also use the product documentation and copy & paste to create Liberty configuration snippets. 
 * You could also use the IBM migration tools to transform an existing configuration for WebSphere Traditional and other runtimes into a Liberty configuration.
 
-### 6.4.4 Troubleshooting
+### 5.4.4 Troubleshooting
 
 You will need the some of the created artifacts like configuration snippets for the Liberty Administration part of the lab. If you did not complete this part of the lab successfully, perform the following steps to be able to continue with the next part.
 
@@ -1268,13 +1114,13 @@ You will need the some of the created artifacts like configuration snippets for 
 <br>
 
 
-### 6.5 Liberty Administration
+### 5.5 Liberty Administration
 
 Now let’s switch to Liberty Administrator role and explore how to install and configure Liberty from an administrator point of view. 
 
 A traditional administrator typically downloads the application server binaries from the IBM pages and uses a regular editor instead of an IDE like Visual Studio to configure Liberty. To download the latest version of WebSphere Liberty, the administrator can use the IBM support page https://www.ibm.com/support/pages/recommended-updates-websphere-application-server
 
-### 6.5.1 Install Liberty from scratch
+### 5.5.1 Install Liberty from scratch
 
 The best practice for Liberty installation is to create a minimal installation by using the Liberty kernel image and install only the required features on top of it. The latest WebSphere Liberty kernel image could be downloaded from the IBM support page. For simplicity, we will use the International License Agreement for Non-Warranted Programs (ILAN) package which is available as zip file at: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/24.0.0.1/wlp-kernel-24.0.0.1.zip
 
@@ -1349,7 +1195,7 @@ The best practice for Liberty installation is to create a minimal installation b
 </table>
 
 
-### 6.5.2 Introducing Liberty Environment Variable Configuration
+### 5.5.2 Introducing Liberty Environment Variable Configuration
 
 You can customize the Liberty environment using certain specific variables to support the placement of product binaries and shared resources. The Liberty environment variables are specified using server.env file. You can use server.env file at the installation and server levels to specify environment variables such as **JAVA_HOME**, **WLP\_USER\_DIR** and **WLP\_OUTPUT\_DIR**.
 Here some of the Liberty specific variables can be used to customize the Liberty environment:
@@ -1361,7 +1207,7 @@ Here some of the Liberty specific variables can be used to customize the Liberty
 *  **WLP\_OUTPUT\_DIR** - This environment variable can be used to specify an alternative location for server generated output such as logs, the workarea directory, and generated files. Files in the logs directory can include console.log, messages.log, and any generated FFDC files. Generated files can include server dumps that are created with the server dump or server javadump command. This variable must be an absolute path.
 
 
-### 6.5.3 Create a Liberty server instance
+### 5.5.3 Create a Liberty server instance
 
 The **Liberty server** command supports actions for starting, stopping, creating, packaging, and dumping a Liberty server. The **server create** command creates a new Liberty server with the name specified. Additional detail on the server command can be found here:
 https://www.ibm.com/docs/en/was-liberty/base?topic=line-server-command-options 
@@ -1435,7 +1281,7 @@ The **server create** command creates by default the user directory in a sub-dir
 </table>
 
 
-### 6.5.4 Install required features
+### 5.5.4 Install required features
 
 You installed the Liberty kernel package which does not contain any features. The next step is to install the required features. Instead of looking into the Liberty configuration to determine which features are required, you can let Liberty inspect which features are missing. This can be done using the featureUtility and specifying the server you are looking for. The command by default will download the required features from the online repository. In an air-gapped environment, you could download the feature repository from the IBM support page and then specify in the featureUtility command to use a local repository. 
 
@@ -1453,7 +1299,7 @@ You installed the Liberty kernel package which does not contain any features. Th
 
     <kbd>![image127](./images/media/image127.png)</kbd>
 
-### 6.5.5 Use your own keystore
+### 5.5.5 Use your own keystore
 
 If you do not create a keystore but enable SSL, Liberty will create a keystore with a random password. Now, you will create your own keystore with a password of choice. 
 
@@ -1499,7 +1345,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
     </tbody>
 </table>
 
-### 6.5.6 Verify that the server configuration works:
+### 5.5.6 Verify that the server configuration works:
 
 1. Start the server via the following command:
 
@@ -1521,7 +1367,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 
         wlp/bin/server stop myServer
 
-### 6.5.7 Deploying a sample application to Liberty
+### 5.5.7 Deploying a sample application to Liberty
 
 In the first part of this lab, you used the Liberty Tools to develop an application and configure Liberty. The application got deployed via maven under the cover. Then you used the Liberty server package which already included the deployed application. In this section of the lab, you will deploy an application to Liberty using two different techniques.
 
@@ -1617,7 +1463,7 @@ Now you will deploy the simpleweb application by adding it to the Liberty server
 **You have successfully deployed the web application into Liberty, first via dropins directory, then by adding it to the server.xml file via include.**
 
 
-### 6.5.8 Change logging and tracing by using ConfigDropins
+### 5.5.8 Change logging and tracing by using ConfigDropins
 
 Right now, you used the **include** concept to enhance the server.xml file with additional configuration files. Alternatively, you can specify additional configuration files in the **configDropins** directory without specifying include elements in the **server.xml** file. If you want to add configuration files to override anything in the **erver.xml** file of the server, create a **configDropins/overrides** directory. 
 In this case, you want to add/change the log level of the application server.
@@ -1766,7 +1612,7 @@ In this case, you want to add/change the log level of the application server.
     If you are interested into additional logging attributes, please take a look at: https://www.ibm.com/docs/en/was-liberty/base?topic=liberty-logging-trace
  
 
-### 6.5.9 Review the Liberty configuration via Liberty REST APIs
+### 5.5.9 Review the Liberty configuration via Liberty REST APIs
 
 If you use several includes or config dropins, you might run into the situation where you want to review the final setup. This can be done by using the **restConnector** APIs. 
 
@@ -1830,7 +1676,7 @@ If you use several includes or config dropins, you might run into the situation 
     For more details about the restConnector for administration, please take a look at: **https://www.ibm.com/docs/en/was-liberty/base?topic=features-admin-rest-connector-20**
 
 
-### 6.5.10 Using the Liberty AdminCenter
+### 5.5.10 Using the Liberty AdminCenter
 
 The Liberty **AdminCenter** can be used to monitor the status of the Liberty server. You will define two users, an administrative user with the role **admin** and the second user with the role **reader**. Use again the securityUtility to create two secure passwords.
 
@@ -1941,7 +1787,7 @@ The Liberty **AdminCenter** can be used to monitor the status of the Liberty ser
         wlp/bin/server stop myServer
 
 
-### 6.5.11 Customizing Liberty JVM Options
+### 5.5.11 Customizing Liberty JVM Options
 
 As you have seen in the Admin Center, the Liberty value for max heap is quite large which indicates that a limit has not been defined yet. This will be done as part of this section by defining Liberty JVM options. 
 
@@ -1978,7 +1824,7 @@ The generic JVM arguments are used to configure and adjust how the JVM executes.
 **https://www.ibm.com/docs/en/was-liberty/base?topic=center-setting-up-admin**
 
 
-### 6.5.12 Recap
+### 5.5.12 Recap
 
 Let’s recap what you did in this part of the lab: 
 
@@ -1992,7 +1838,7 @@ Let’s recap what you did in this part of the lab:
 - used Liberty Admin Center to see monitoring data and administer Liberty apps.
  
 
-### 7 Lab Cleanup
+### 6 Lab Cleanup
 
 1. Once you are done, make sure that Liberty and Visual Studio Code is not running.
 
