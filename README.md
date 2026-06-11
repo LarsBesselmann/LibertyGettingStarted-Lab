@@ -140,6 +140,8 @@ To use the lab, you need to install the following software
 
 
     <kbd>![mvn-v](./images/media/mvn-v.png)</kbd>
+    
+    The version might be slightly different, but must be higher than 3.8.5
 
 
 3. Check the Git version via the following command:
@@ -147,6 +149,8 @@ To use the lab, you need to install the following software
         git -v
 
     <kbd>![git-v](./images/media/git-v.png)</kbd>
+
+    The version might be slightly different.
 
 ### 5.2 Create the required working directories
 
