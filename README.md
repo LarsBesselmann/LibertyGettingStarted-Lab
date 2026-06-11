@@ -195,12 +195,12 @@ The **Open Liberty starter** gives you a simple, quick way to get the necessary 
 </tbody>
 </table>
 
-3. Change the artifact name to **simpleweb**, change the Java level to **17** and the MicroProfile Version to **6.1**, then click on **Generate Project** 
+3. Change the artifact name to **simpleweb**, change the Java level to **17**, the Java EE/Jakarta EE Version to **10** and the MicroProfile Version to **6.1**, then click on **Generate Project** 
 
     <kbd>![LibertyStarter-simpleweb](./images/media/LibertyStarter-simpleweb.png)</kbd>
 
 4. Click on **Save** to save the project under Downloads.
-
+    Depending on your browser settings, you will be asked or not where to save the file. 
     <kbd>![LibertyStarter-simpleweb-save](./images/media/LibertyStarter-simpleweb-save.png)</kbd>
 
     You will see a pop-up like the one below. Click on **Got it!**  to close the window.
