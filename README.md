@@ -179,9 +179,6 @@ The **Open Liberty starter** gives you a simple, quick way to get the necessary 
 
     <kbd>![Toolbar_firefox](./images/media/Toolbar_firefox.png)</kbd>
 
-    If you get a pop-up that Authentication is required, enter **IBMDem0s!**. 
-
-    <kbd>![Authentication-required](./images/media/Authentication-required.png)</kbd>
 
 2. Enter the URL **https://openliberty.io/start/**   
 <table>
@@ -239,13 +236,24 @@ Now you will use Visual Studio Code to see what has been generated as part of th
 
     Visual Studio Code UI will be opened.
 
+    If you get a pop-up that Authentication is required, **IBMDem0s!** in both fields and select **Continue**. 
+
+    <kbd>![Keyring Password](./images/media/Enter_Keyring.png)</kbd>
+
 2. Click on **Yes, I trust the authors** to continue.
 
-    <kbd>![image023](./images/media/image023.png)</kbd>
+    <kbd>![image023](./images/media/VSCode-trust_dark.png)</kbd>
 
     If you see during the lab one of the pop-ups below or any other pop-up asking to install something, close the pop-up without installation by clicking the X.
     <kbd>![image024](./images/media/image024.png)</kbd>
     <kbd>![image025](./images/media/image025.png)</kbd>
+
+    Close the VSCode walkthrough
+    <kbd>![image024](./images/media/VSCode-walkthrough.png)</kbd>
+
+    If you want to change the color of the IDE, go to **Settings > Themes > Color Themes** and select the theme of choice. The lab uses a color **Light+**. 
+    <kbd>![image024](./images/media/VSCode-Colortheme.png)</kbd>
+
 
 
 3. Investigate into the generated project:
