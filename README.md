@@ -476,7 +476,7 @@ Final step as developer is to export the developed application as WAR file so th
 
 Export the developed application so that it can be deployed to Liberty by the operations team.
 
-The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behavior, you need to adjust the pom.xml file and configure the Liberty Maven Plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**.
+The generated maven pom by default does not generate a WAR file as it uses a “looseApplication” approach to optimize the inner-loop development experience. (For more details, see https://github.com/OpenLiberty/ci.maven). To change the default build behavior, you need to adjust the pom.xml file and configure the Liberty Maven Plugin to generate a WAR by setting the property: **\<looseApplication>false\</looseApplication>**. You will not do this in the lab, instead you will use the **mvn package** command to create the WAR file.
 
 1. Switch back to Visual Studio Code.
 
@@ -488,35 +488,29 @@ The generated maven pom by default does not generate a WAR file as it uses a “
 
     <kbd>![image056](./images/media/image056.png)</kbd>
 
-4. In Visual Studio Code, open the file **pom.xml** and add to the Liberty Maven Plugin configuration the lines:
-    
-        <configuration>
-        <looseApplication>false</looseApplication>
-        </configuration>
-    
-    <kbd>![image057](./images/media/image057.png)</kbd>
 
-5. If you would start Liberty now again in Dev Mode, the property looseApplication would be ignored and you would see a warning like this:   
- 
-    <kbd>![image058](./images/media/image058.png)</kbd>
-
-    Therefore, you must start Liberty in run mode to generate the WAR file. This can be done by entering in the terminal window the command:
+4. Create the war file by running the command
     
-        mvn liberty:run
+        mvn package
 
-    <kbd>![image059](./images/media/image059.png)</kbd>
+    <kbd>![image059](./images/media/mvn_package_part1.png)</kbd>
+    Then wait until the command has completed.
+    <kbd>![image059](./images/media/mvn_package_part2.png)</kbd>
 
     As you can see in the screenshot above, maven has built the file **simpleweb.war** and stored it at **~/Student/dev/simpleweb/target/** directory.
+5. Start the Liberty server via the command
 
-6. Scroll down and you can see that it has been installed into the directory ~/Student/dev/simpleweb/target/liberty/wlp/usr/servers/defaultServer/apps.
+        mvn liberty:run
 
-    <kbd>![image060](./images/media/image060.png)</kbd>
+    The server starts and the configuration and applicaztion are copied over int the target directory.
+    <kbd>![image059](./images/media/mvn_liberty_run.png)</kbd>
+    Then wait until the command has completed.
 
-7. Feel free to test the application in the browser, then stop the Liberty instance by using **CTRL+C**.
 
-8. Close Visual Studio Code.
+6. Feel free to test the application in the browser, then stop the Liberty instance by using **CTRL+C**.
 
-Comment: To build the war file, you could also use the **mvn package** command.
+7. Close Visual Studio Code.
+
 
 ### 5.3.7 Create a server package
 
