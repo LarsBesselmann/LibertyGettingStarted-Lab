@@ -236,7 +236,7 @@ Now you will use Visual Studio Code to see what has been generated as part of th
 
     Visual Studio Code UI will be opened.
 
-    If you get a pop-up that Authentication is required, **IBMDem0s!** in both fields and select **Continue**. 
+    If you get a pop-up that Authentication is required, enter **IBMDem0s!** in both fields and select **Continue**. 
 
     <kbd>![Keyring Password](./images/media/Enter_Keyring.png)</kbd>
 
@@ -244,19 +244,18 @@ Now you will use Visual Studio Code to see what has been generated as part of th
 
     <kbd>![image023](./images/media/VSCode-trust_dark.png)</kbd>
 
-    If you see during the lab one of the pop-ups below or any other pop-up asking to install something, close the pop-up without installation by clicking the X.
+3. On the panel called **Walkthrough: Setup VS Code**, you can change the theme. The lab document uses as color **Light+**. Feel free to adjust the theme to your choice.
+    <kbd>![image024](./images/media/VSCode-walkthrough-theme.png)</kbd>
+
+    Finally close the panel called **Walkthrough: Setup VS Code**.
+
+4. If you see during the lab one of the pop-ups below or any other pop-up asking to install something, close the pop-up without installation by clicking the X.
     <kbd>![image024](./images/media/image024.png)</kbd>
     <kbd>![image025](./images/media/image025.png)</kbd>
 
-    Close the VSCode walkthrough
-    <kbd>![image024](./images/media/VSCode-walkthrough.png)</kbd>
-
-    If you want to change the color of the IDE, go to **Settings > Themes > Color Themes** and select the theme of choice. The lab uses a color **Light+**. 
-    <kbd>![image024](./images/media/VSCode-Colortheme.png)</kbd>
 
 
-
-3. Investigate into the generated project:
+5. Investigate into the generated project:
 
     In Visual Studio Code, take a look at the **Explorer** section to see the content of the project.
     You can find a src and a target folder, a Dockerfile and a maven build file (pom.xml).
@@ -264,7 +263,7 @@ Now you will use Visual Studio Code to see what has been generated as part of th
     <kbd>![image026](./images/media/image026.png)</kbd>
 
 
-4. Take a look at the generated Maven configuration 
+6. Take a look at the generated Maven configuration 
 
     a. Click on **pom.xml** to see the maven pom.
     
@@ -286,7 +285,7 @@ Now you will use Visual Studio Code to see what has been generated as part of th
     
     b. Finally close the pom.xml.
 
-5. Review the generated Liberty configuration
+7. Review the generated Liberty configuration
 
     a.  Open **src >  main >liberty > config > server.xml** to see the Liberty configuration.
 
