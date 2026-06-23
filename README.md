@@ -105,9 +105,9 @@ The lab was build for a specific environment but you could also use your own env
 
 - The lab is described for Red Hat Enterprise Linux but you could also use another operating system. 
 
-- You could also use Eclipse or IntelliJ instead of Visual Studio Code but the UI looks a bit different.
+- The lab is described for Visual Studio Code. You could also use Eclipse or IntelliJ but the UI looks a bit different.
 
-- The document assumes the user **techzone** with the password **IBMDem0s!** and the user home directory **/home/techzone/**.
+- The document assumes the user **itzuser** and the user home directory is **/home/itzuser/**.
 
 - Overall, you might have to adjust the one or other command to your environment.
 
