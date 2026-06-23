@@ -1146,7 +1146,7 @@ The best practice for Liberty installation is to create a minimal installation b
     
 3. Download and store the Liberty kernel image. 
 
-        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/24.0.0.1/wlp-kernel-24.0.0.1.zip -P ~/Student/ops/software
+        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/26.0.0.1/wlp-kernel-26.0.0.1.zip -P ~/Student/ops/software
     
     <kbd>![image114](./images/media/image114.png)</kbd>
 
