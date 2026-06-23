@@ -1150,7 +1150,7 @@ The best practice for Liberty installation is to create a minimal installation b
     
     <kbd>![image114](./images/media/image114.png)</kbd>
 
-4. Use **ls** command to see that the kernel image is less than 17 MB in size. The overall disk footprint will be larger depending on the required Liberty features.
+4. Use **ls** command to see that the kernel image is less than 18 MB in size. The overall disk footprint will be larger depending on the required Liberty features.
 
         ls -lrt ~/Student/ops/software/
     <kbd>![image115](./images/media/image115.png)</kbd>
@@ -1164,7 +1164,7 @@ The best practice for Liberty installation is to create a minimal installation b
 
 6. Use the unzip command to extract the image.
 
-        unzip ../software/wlp-kernel-24.0.0.1.zip
+        unzip ../software/wlp-kernel-26.0.0.6.zip
 
     <kbd>![image117](./images/media/image117.png)</kbd>
 <table>
@@ -1173,7 +1173,7 @@ The best practice for Liberty installation is to create a minimal installation b
 <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
 <td>
 <p>On the IBM support page, you can find next to the convenience packages like the Liberty kernel package also Liberty archives for Liberty Core, Liberty Base or Liberty ND. To install such an archive, you would use a command like:
-    <strong>"java -jar ../wlp-base-all-24.0.0.1.jar --acceptLicense ."</strong> 
+    <strong>"java -jar ../wlp-base-all-26.0.0.6.jar --acceptLicense ."</strong> 
 </p></td>
 </tr>
 </tbody>
