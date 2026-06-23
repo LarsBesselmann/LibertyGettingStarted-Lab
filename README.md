@@ -1162,7 +1162,7 @@ The best practice for Liberty installation is to create a minimal installation b
 
     <kbd>![image116](./images/media/image116.png)</kbd>
 
-6. Use the unzip command to extract the image.
+6. Use the unzip command to extract the Liberty Kernel image.
 
         unzip ../software/wlp-kernel-26.0.0.6.zip
 
