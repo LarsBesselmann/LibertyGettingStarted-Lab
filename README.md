@@ -317,9 +317,10 @@ As best practice to optimize the footprint of the application runtime regarding 
 
     <kbd>![image031](./images/media/image031.png)</kbd>
 
-3. Now you will use the **Liberty Tools configuration assistant** to define the servlet feature. Place your cursor at the beginning of an empty line in the featureManager section. Then press the **CTRL key** and press **SPACE** to activate the Liberty Tools configuration assistant. You should see something like:
+3. Now you will use the **Liberty Tools configuration assistant** to define the servlet feature. Place your cursor at the beginning of an empty line in the featureManager section. Then press the **CTRL** key and press **SPACE** to activate the Liberty Tools configuration assistant. You should see something like:
 
     <kbd>![image032](./images/media/image032.png)</kbd>
+
 <table>
 <tbody>
 <tr class="odd">
@@ -412,6 +413,8 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
     <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
     <td>
     <p>If you get a pop-up with <strong>Authentication required</strong>, enter the password <strong>IBMDem0s!</strong> and click on <strong>Unlock</strong>.
+    
+    You might also see a different Liberty version.
     </p></td>
     </tr>
     </tbody>
