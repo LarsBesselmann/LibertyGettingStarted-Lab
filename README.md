@@ -1385,7 +1385,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 In the first part of this lab, you used the Liberty Tools to develop an application and configure Liberty. The application got deployed via maven under the cover. Then you used the Liberty server package which already included the deployed application. In this section of the lab, you will deploy an application to Liberty using two different techniques.
 
 First, you will simply copy the application WAR module into the Liberty **"dropins"** directory. The dropins directory is monitored by Liberty. As deployable units (WAR, EAR, JAR) are added to the directory, Liberty automatically deploys and starts the application on the Liberty server. 
-The **dropins** directory can be used for applications that do not require extra configuration like security role mapping. As the deployable units are removed from the dropins folder, the applications are stopped and removed from the running Liberty server.
+The **dropins** directory can be used for applications that do not require extra configuration like security role mapping. Once the deployable units are removed from the dropins folder, the applications are stopped and removed from the running Liberty server.
 
 1. In the terminal window start the server and use the tail -f command to view the messages.log file.
 
@@ -1401,19 +1401,21 @@ The **dropins** directory can be used for applications that do not require extra
         cd ~/Student/ops/int/
 
 4. Copy the web application into the dropins directory.
+    As we already have the application simpleweb configured via include, we have to rename the war to not cause conflicts.
 
-        cp ~/Student/assets/simpleweb.war wlp_usr/servers/myServer/dropins
+
+        cp ~/Student/assets/simpleweb.war wlp_usr/servers/myServer/dropins/simpleweb2.war
 
     <kbd>![image135](./images/media/image135.png)</kbd>
 
-5. Switch to the terminal window where tail command is running. You can see messages that the application deployment has taken place, the application simpleweb application has been started and is available at **http://rhel9-base.gym..lan:9080/simpleweb/**.
+5. Switch to the terminal window where tail command is running. You can see messages that the application deployment has taken place, the application simpleweb application has been started and is available at **http://localhost:9080/simpleweb2/**.
     
-    Be aware that Liberty defined the context root based on the name of the WAR file as **"/simpleweb"**.
+    Be aware that Liberty defined the context root based on the name of the WAR file as **"/simpleweb2"**.
 
     <kbd>![image136](./images/media/image136.png)</kbd>
 
 
-6. Verify that the application is accessible by opening a browser at: **http://localhost:9080/simpleweb/helloWorld**
+6. Verify that the application is accessible by opening a browser at: **http://localhost:9080/simpleweb2/helloWorld**
 
     <kbd>![image137](./images/media/image137.png)</kbd>
 
@@ -1423,7 +1425,7 @@ The **dropins** directory can be used for applications that do not require extra
 
 8. Switch back to the terminal where you entered the copy command and remove the deployed application from the dropins directory using the following command:
 
-        rm wlp_usr/servers/myServer/dropins/simpleweb.war
+        rm wlp_usr/servers/myServer/dropins/simpleweb2.war
 
 9. Switch back to the terminal window where tail is running. You can see that the application has been removed.
 
