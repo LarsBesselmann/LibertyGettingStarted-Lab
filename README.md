@@ -1340,9 +1340,9 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 
     As expected, the password used for the keystore does not match to the one in **server.env** and must be updated. 
     
-4. Best practice is to store the password encoded or encrypted. In this case, you will use encoding via aes and store the password in the server.env file. To generate the encoded password, you can use the securityUtility encode command. Use the following command to update the server.env file with the encoded keystore password of “mySecret”, then review the result:
+4. Best practice is to store the password encoded or encrypted. In this case, you will use encoding via xor and store the password in the server.env file. To generate the encoded password, you can use the securityUtility encode command. Use the following command to update the server.env file with the encoded keystore password of “mySecret”, then review the result:
 
-        echo "keystore_password=$(wlp/bin/securityUtility encode --encoding=aes mySecret)" > wlp_usr/servers/myServer/server.env
+        echo "keystore_password=$(wlp/bin/securityUtility encode --encoding=xor mySecret)" > wlp_usr/servers/myServer/server.env
         cat wlp_usr/servers/myServer/server.env
 
     <kbd>![image131](./images/media/image131.png)</kbd>
