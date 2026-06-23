@@ -500,7 +500,9 @@ The generated maven pom by default does not generate a WAR file as it uses a “
         mvn package
 
     <kbd>![image059](./images/media/mvn_package_part1.png)</kbd>
+
     Then wait until the command has completed.
+
     <kbd>![image059](./images/media/mvn_package_part2.png)</kbd>
 
     As you can see in the screenshot above, maven has built the file **simpleweb.war** and stored it at **~/Student/dev/simpleweb/target/** directory.
@@ -664,7 +666,7 @@ You will now explore the Liberty server package to get a better understanding ho
 
     <kbd>![image067](./images/media/image067.png)</kbd>
     
-    At the beginning of the log, you can see the Open Liberty version that is used (version 26.0.0.5 or later).
+    At the beginning of the log, you can see the Open Liberty version that is used (version 26.0.0.6 or later).
     The server is started when the message **“The defaultServer server is ready to run a smarter planet”** is displayed in the messages.log file.
 
 7. Test that the application is accessible via URL **http://localhost:9080/simpleweb/helloWorld**
@@ -695,11 +697,9 @@ Let’s do a short excurse about Liberty dynamic updates. You will use Visual St
 
         tail -f wlp/usr/servers/defaultServer/logs/messages.log
 
+    Wait until the web application has been initialized
+
     <kbd>![image072](./images/media/image072.png)</kbd>
-
-5. Wait until the web application has been initialized
-
-    <kbd>![image073](./images/media/image073.png)</kbd>
 
 6. In Visual Studio Code, navigate to **wlp > usr > servers > defaultServer** and open the file **server.xml**.
 
