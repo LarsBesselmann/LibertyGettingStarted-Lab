@@ -242,12 +242,16 @@ Now you will use Visual Studio Code to see what has been generated as part of th
 
 2. Click on **Yes, I trust the authors** to continue.
 
-    <kbd>![image023](./images/media/VSCode-trust_dark.png)</kbd>
+    <kbd>![VSCode-trust_dark](./images/media/VSCode-trust_dark.png)</kbd>
 
 3. On the panel called **Walkthrough: Setup VS Code**, you can change the theme. The lab document uses as color **Light+**. Feel free to adjust the theme to your choice.
-    <kbd>![image024](./images/media/VSCode-walkthrough-theme.png)</kbd>
+    <kbd>![VSCode-walkthrough-theme](./images/media/VSCode-walkthrough-theme.png)</kbd>
 
     Finally close the panel called **Walkthrough: Setup VS Code**.
+
+    Also close the panel called **Chat**
+
+    <kbd>![VSCode-Agent](./images/media/VSCode-Agent.png)</kbd>
 
 4. If you see during the lab one of the pop-ups below or any other pop-up asking to install something, close the pop-up without installation by clicking the X.
     <kbd>![image024](./images/media/image024.png)</kbd>
@@ -268,14 +272,14 @@ Now you will use Visual Studio Code to see what has been generated as part of th
     a. Click on **pom.xml** to see the maven pom.
     
     In the build section, you can find the configuration of the liberty-maven-plugin.
-    <kbd>![image027](./images/media/image027.png)</kbd>
+    <kbd>![pom-build](./images/media/pom-build.png)</kbd>
 
     <table>
     <tbody>
     <tr class="odd">
     <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
     <td>
-    <p>Don’t worry if the version of the plugin has changed to 3.10.2 or later.
+    <p>Don’t worry if the version of the plugin is newer in your environment.
     </p></td>
     </tr>
     </tbody>
