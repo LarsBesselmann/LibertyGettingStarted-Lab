@@ -1231,7 +1231,7 @@ The **server create** command creates by default the user directory in a sub-dir
     (Keep in mind that the path in server.env must be absolute, ~/Student for example is not supported):
 
         mkdir ~/Student/ops/int/wlp/etc
-        echo "WLP_USER_DIR=/home/techzone/Student/ops/int/wlp_usr" > ~/Student/ops/int/wlp/etc/server.env
+        echo "WLP_USER_DIR=/home/itzuser/Student/ops/int/wlp_usr" > ~/Student/ops/int/wlp/etc/server.env
         cat ~/Student/ops/int/wlp/etc/server.env
 
     <kbd>![image120](./images/media/image120.png)</kbd>
