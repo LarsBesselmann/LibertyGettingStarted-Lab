@@ -1367,7 +1367,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 
     <kbd>![image132](./images/media/image132.png)</kbd>
 
-    As you can see, the Liberty server is running and listens on port **9080** and **9443**. You can also see that it complains about the **missing include file application-config.xml**. You will fix this later.
+    As you can see, the Liberty server is running and listens on port **9080** and **9443**. 
 
 2. Verify that the server is accessible via HTTPs. Switch to the browser and access the web application via the URL **https://localhost:9443**. 
     As before, you will get a warning that your connection is not secure. Click on **Advanced**, scroll down and click on **"Accept the Risk and Continue"**. Then you should be able to access the application.
