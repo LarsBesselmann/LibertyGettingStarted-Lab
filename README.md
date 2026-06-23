@@ -1367,7 +1367,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 
     <kbd>![image132](./images/media/image132.png)</kbd>
 
-    As you can see, the Liberty server is running and listens on port **9080** and **9443**. 
+    As you can see, the Liberty server is running and listens on port **9080** and **9443**. You can also see that the application simpleweb.war is defined but cannot be found. You will fix that later.
 
 2. Verify that the server is accessible via HTTPs. Switch to the browser and access the web application via the URL **https://localhost:9443**. 
     As before, you will get a warning that your connection is not secure. Click on **Advanced**, scroll down and click on **"Accept the Risk and Continue"**. Then you should be able to access the application.
@@ -1444,15 +1444,18 @@ Now you will deploy the simpleweb application by adding it to the Liberty server
 
     <kbd>![image140](./images/media/image140.png)</kbd>
 
-11. To define the application in the Liberty configuration file, take a look at the application configuration that has been provided as snippet.
+    In the terminal window running tail, you can see that the application has been started.
+    <kbd>![image140](./images/media/image140a.png)</kbd>
 
-        cat ~/Student/assets/application-config.xml
+11. So let's review how the application has been defined. Take a look at the application configuration that has been provided as snippet and copied over to the Liberty configuration directory.
+
+        cat wlp_usr/servers/myServer/application-config.xml
 
     <kbd>![image141](./images/media/image141.png)</kbd>
 
     As you can see, a different context root has been defined.
 
-12. You will add the webApplication element to the Liberty configuration by using the **include** concept. Review that the include element and the properties that have already been defined in the server.xml file.
+12. The configuration snippet was added to the Liberty configuration via **include**. Review that the include element and the properties that have already been defined in the server.xml file.
 
         cat wlp_usr/servers/myServer/server.xml | grep include
 
