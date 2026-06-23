@@ -1453,7 +1453,7 @@ Now you will deploy the simpleweb application by adding it to the Liberty server
 
     <kbd>![image141](./images/media/image141.png)</kbd>
 
-    As you can see, a different context root has been defined.
+    As you can see, a context root of /mysimpleweb has been defined.
 
 12. The configuration snippet was added to the Liberty configuration via **include**. Review that the include element and the properties that have already been defined in the server.xml file.
 
@@ -1461,19 +1461,7 @@ Now you will deploy the simpleweb application by adding it to the Liberty server
 
     <kbd>![image142](./images/media/image142.png)</kbd>
 
-13. Copy the application-config.xml into the server directory.
-
-        cp ~/Student/assets/application-config.xml wlp_usr/servers/myServer
-        ls -lrt wlp_usr/servers/myServer
-
-    <kbd>![image143](./images/media/image143.png)</kbd>
-
-14. Switch back to the terminal window running tail. You can see that the application **simpleweb** gets deployed, this time with the context root **mysimpleweb**. 
-
-    <kbd>![image144](./images/media/image144.png)</kbd>
-
-
-15. Finally test the application in the browser via URL **http://localhost:9080/mysimpleweb/helloWorld**. 
+13. Finally test the application in the browser via URL **http://localhost:9080/mysimpleweb/helloWorld**. 
 
     <kbd>![image145](./images/media/image145.png)</kbd>
 
