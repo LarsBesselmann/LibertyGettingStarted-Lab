@@ -1227,7 +1227,7 @@ https://www.ibm.com/docs/en/was-liberty/base?topic=line-server-command-options
 The **server create** command creates by default the user directory in a sub-directory of the **\${wlp.install.dir}** directory. In production, it is recommended to store the Liberty configuration in a separate directory. This can be done by setting the **WLP\_USER\_DIR** environment variable.
 
 1. The etc directory as well as the server.env file are not created as part of the installation. <br>
-    Use the following commands to set the variable **WLP\_USER\_DIR** to **/home/techzone/Student/ops/int/wlp_usr** in the server.env on runtime level. <br>
+    Use the following commands to set the variable **WLP\_USER\_DIR** to **/home/itzuser/Student/ops/int/wlp_usr** in the server.env on runtime level. <br>
     (Keep in mind that the path in server.env must be absolute, ~/Student for example is not supported):
 
         mkdir ~/Student/ops/int/wlp/etc
@@ -1259,6 +1259,7 @@ The **server create** command creates by default the user directory in a sub-dir
 5. Replace the generated Liberty configuration with the configuration that you stored in the assets directory.
 
         cp ~/Student/assets/server.* wlp_usr/servers/myServer
+        cp ~/Student/assets/application*.xml wlp_usr/servers/myServer
         ls -lrt wlp_usr/servers/myServer
 
     <kbd>![image124](./images/media/image124.png)</kbd>
