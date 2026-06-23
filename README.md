@@ -1134,7 +1134,7 @@ A traditional administrator typically downloads the application server binaries 
 
 ### 5.5.1 Install Liberty from scratch
 
-The best practice for Liberty installation is to create a minimal installation by using the Liberty kernel image and install only the required features on top of it. The latest WebSphere Liberty kernel image could be downloaded from the IBM support page. For simplicity, we will use the International License Agreement for Non-Warranted Programs (ILAN) package which is available as zip file at: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/24.0.0.1/wlp-kernel-24.0.0.1.zip
+The best practice for Liberty installation is to create a minimal installation by using the Liberty kernel image and install only the required features on top of it. The latest WebSphere Liberty kernel image could be downloaded from the IBM support page. For simplicity, we will use the International License Agreement for Non-Warranted Programs (ILAN) package which is available as zip file at: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/26.0.0.6/wlp-kernel-26.0.0.6.zip
 
 1. Open a terminal window.
 
@@ -1146,7 +1146,7 @@ The best practice for Liberty installation is to create a minimal installation b
     
 3. Download and store the Liberty kernel image. 
 
-        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/26.0.0.1/wlp-kernel-26.0.0.1.zip -P ~/Student/ops/software
+        wget https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/26.0.0.6/wlp-kernel-26.0.0.6.zip -P ~/Student/ops/software
     
     <kbd>![image114](./images/media/image114.png)</kbd>
 
