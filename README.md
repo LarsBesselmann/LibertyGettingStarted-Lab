@@ -1322,7 +1322,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
 
     <kbd>![image128](./images/media/image128.png)</kbd>
 
-    As you can see, the command uses the hostname and server name as subjectDN and encodes the password using xor. The command also allows to use aes encoding or encryption, see https://www.ibm.com/docs/en/was-liberty/base?topic=applications-securityutility-command.
+    As you can see, the command uses the hostname and server name as subjectDN and encodes the password using xor. The command also allows to use xor encoding or encryption, see https://www.ibm.com/docs/en/was-liberty/base?topic=applications-securityutility-command.
 
 
 2. Our server template has already configured SSL and uses a variable to specify the keystore password. Use the following commands to review what has been configured in the server.xml file:
