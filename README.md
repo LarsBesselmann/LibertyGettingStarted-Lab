@@ -1687,6 +1687,12 @@ If you use several includes or config dropins, you might run into the situation 
 
 The Liberty **AdminCenter** can be used to monitor the status of the Liberty server. You will define two users, an administrative user with the role **admin** and the second user with the role **reader**. Use again the securityUtility to create two secure passwords.
 
+If you closed the terminal, open a new one and switch to the int directory.
+
+    cd ~/Student/ops/int/
+
+
+
 1. Create a password as **Liberty4Admins** for the admin user.
 
         wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
