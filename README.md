@@ -1476,6 +1476,7 @@ In this case, you want to add/change the log level of the application server.
 
 1. From the second terminal window, issue the following command to create a configDropins directory in the server directory.
 
+        cd ~/Student/ops/int/
         mkdir -p wlp_usr/servers/myServer/configDropins/overrides
 
     <kbd>![image146](./images/media/image146.png)</kbd>
