@@ -1748,6 +1748,7 @@ If you closed the terminal, open a new one and switch to the int directory.
 6. Access the Liberty Admin Center via URL **https://localhost:9443/adminCenter**, then enter the credentials for the admin user (**admin**/**Liberty4Admins**) and press **Submit**.
 
     <kbd>![image169](./images/media/image169.png)</kbd>
+
     The Admin Center Toolbox is displayed.
 
 7. Click on **Explore** to explore the Liberty status, the applications as well monitoring data and configuration.
@@ -1768,7 +1769,7 @@ If you closed the terminal, open a new one and switch to the int directory.
 
     <kbd>![image173](./images/media/image173.png)</kbd>
 
-    As you can see here, the Used Heap Memory max value above 1.9 MB which indicates that max heap has not been defined. You will change that in the next section of the lab.
+    As you can see here, the Used Heap Memory max value around 8 GB which indicates that max heap has not been defined. You will change that in the next section of the lab.
 
 11. On the tab **Configure**, you can see current configuration. 
 
@@ -1823,7 +1824,7 @@ The generic JVM arguments are used to configure and adjust how the JVM executes.
 
     <kbd>![image176](./images/media/image176.png)</kbd>
 
-4. Click on **Explore**, then select **Monitor**. Take a look at the dashboard and you can see that the Used Heap Memory Max is now 500 MB as defined in jvm.options.
+4. Click on **Explore**, then select **Monitor**. Take a look at the dashboard and you can see that the **Used Heap Memory** **Max** is now 500 MB as defined in jvm.options.
 
     <kbd>![image180](./images/media/image180.png)</kbd>  
 
