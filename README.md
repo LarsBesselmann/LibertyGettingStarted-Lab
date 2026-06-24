@@ -1627,7 +1627,7 @@ If you use several includes or config dropins, you might run into the situation 
 
 1. First of all, you need a strong password as the APIs provide access to sensitive data which could help a hacker to manipulate the system. Use the **securityUtility** to create a secure password as **LibertyIsGreat**.
 
-        wlp/bin/securityUtility encode --encoding=aes LibertyIsGreat
+        wlp/bin/securityUtility encode --encoding=xor LibertyIsGreat
 
     <kbd>![image157](./images/media/image157.png)</kbd>
 
@@ -1642,7 +1642,7 @@ If you use several includes or config dropins, you might run into the situation 
             <featureManager>
                 <feature>restConnector-2.0</feature>
             </featureManager>
-        <quickStartSecurity userName="admin" userPassword="{aes}ALCpb79MrIuO8aVUdyXKVDWNssXfX3OmL+xD2J3jWcOgLwrIq1f7/qO8tCR7JwNmcQ==" />
+        <quickStartSecurity userName="admin" userPassword="{xor}EzY9Oi0rJhYsGC06Pis=" />
         </server>
         ' > wlp_usr/servers/myServer/configDropins/overrides/rest-config.xml
 
